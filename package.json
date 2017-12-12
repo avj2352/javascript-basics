@@ -1,0 +1,16 @@
+{
+  "name": "javascript_basics",
+  "version": "1.0.0",
+  "description": "All Javascript Basic Knowledge here....for Google, Amazon, Facebook interview",
+  "main": "index.js",
+  "scripts": {
+    "start":"http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pramod",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

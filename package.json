@@ -4,13 +4,22 @@
   "description": "All Javascript Basic Knowledge here....for Google, Amazon, Facebook interview",
   "main": "index.js",
   "scripts": {
-    "start":"http-server .",
+    "start": "webpack-dev-server ./webpack.config.js --content-base ./public",
+    "build":"webpack ./webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Pramod",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.2.1"
+    "@types/react": "^16.0.29",
+    "@types/react-dom": "^16.0.3",
+    "jquery": "^3.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
   }
 }
